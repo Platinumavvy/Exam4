@@ -1,0 +1,54 @@
+body {
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	max-width: 50%;
+	/*float: right;*/
+	color: blue;
+	text-align: center;
+	/*Box has 3 css properties: border, padding, margin */
+	border-style: solid;
+	border-color: black;
+	border-width: 2px; /*top right bottom left*/
+	padding: 5px;
+	margin: 5px;
+	clear: both;
+}
+
+p {
+	text-align: justify;
+	font-size: 22px;
+	/*display: inline;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+	padding: 3px;
+	margin: 5px;*/
+}
+/*styling a simple horizontal nav bar*/
+
+ul {
+	text-decoration: none;
+	padding: 0px;
+	background-color: cornsilk;
+	border: 2px solid black;
+}
+
+ul li {
+	display: inline-block;
+	/*border: 2px solid black;*/
+}
+
+ul li a {
+	display: block;
+	padding: 10px 25px;
+	color: orange;
+	text-decoration: none;
+}
+
+ul li a:hover {
+	color: beige;
+	background-color: black;
+}

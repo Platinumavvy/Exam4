@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample Exercise CSI3150</title>
+
+  <!--how to incorporate a favicon for your webpage-->
+  <link rel="icon" href="./pages/media/images/Logo.png" type="image/x-icon" />
+</head>
+
+<body>
+  <header>
+    <h1>This is my Project Portfolio Page</h1>
+    <nav>
+      <menu>
+        <a href="../index.html">Home</a>
+        <a href="./pages/hobbies.html">Hobbies</a>
+        <a href="./pages/projects.html">Projects</a>
+      </menu>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Project 1: Reporting information about xyz policies</h2>
+    <p>here you give a brief abstract about the project</p>
+
+    <h3>Project Completion Status</h3>
+    <!--meter tag-->
+    <label for="diskUsage">Disk Usage C:/</label>
+    <meter id="diskUsage" value="0.6">60%</meter>
+
+    <!--progress tag-->
+    <label for="survey">Project Progress</label>
+    <progress id="survey" max="12" value="6"> 50% </progress>
+
+    <h3>Significant Results:</h3>
+    <!--Tabular information for results-->
+    <!--A simple table-->
+    <table border="1">
+      <caption>Table: Username reporting for students who took the survey</caption>
+      <!--modify the first row to semantically express the meaning 
+        of its contents::: use of the <th> tag-->
+
+      <!--table header-->
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Department</th>
+        </tr>
+      </thead>
+      <!--table body-->
+      <tbody>
+        <tr>
+          <td>xyz</td>
+          <td>xyz@gmail.com</td>
+          <td>CSE</td>
+        </tr>
+
+        <tr>
+          <td>abc</td>
+          <td>abc@yahoo.com</td>
+          <td>ME</td>
+        </tr>
+
+        <tr>
+          <td>pqr</td>
+          <td>pqr@gmail.com</td>
+          <td>EE</td>
+        </tr>
+      </tbody>
+      <!--table footer-->
+      <tfoot>
+        <tr>
+          <td>Total Participation Sum:</td>
+          <td>-</td>
+          <td>3</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <hr />
+    <h3>Sample of Code Snippet: </h3>
+    <code>
+      include &lt;iostream &gt;
+      cout &lt;&lt; "Hello , world";
+    </code>
+
+    <h3>Results of Chemical Equation used:</h3>
+    <p>(a+b)<sup>2</sup>= a<sup>2</sup>+ b<sup>2</sup></p>
+    <p>THe chemical Formula of water is H<sub>2</sub>O</p>
+    <hr />
+    <h3>Try out your knowledge</h3>
+    <details>
+      Anakin Skywalker, Lukes Father.
+      <summary>Who is Darth Vader? !! SPOILER ALERT !!</summary>
+    </details>
+  </section>
+
+  <section>
+    <h2>Example of rowspan</h2>
+
+    <table border="2">
+      <tr>
+        <th>Child's Name</th>
+        <th>Parent's Name</th>
+      </tr>
+
+      <tr>
+        <td rowspan="2">xyz</td>
+        <td>pqr</td>
+      </tr>
+
+      <tr>
+        <td>abc</td>
+      </tr>
+    </table>
+  </section>
+
+  <!--self exercise code a google calendar using html tables-->
+  <br /><br />
+
+  <!--some useful html tags that can be used on a case by case basis-->
+
+  <form action="login.php" method="get">
+    <label for="emailID">Email:</label>
+    <input type="email" name="email" id="emailID" />
+
+    <label for="userPassword">Password:</label>
+    <input type="password" name="password" id="userPassword" />
+
+    <button type="submit">SUBMIT</button>
+    <button type="reset">RESET</button>
+  </form>
+  <br /><br />
+  <br /><br />
+  <br /><br />
+  <br /><br />
+  <br /><br />
+  <br /><br />
+</body>
+
+</html>
