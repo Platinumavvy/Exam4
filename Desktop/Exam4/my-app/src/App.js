@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import ResultComponent from "./components/Result";
 import KeyPadComponent from "./components/Keypad";
+import State from "./components/useState";
 
 class App extends Component {
 	constructor() {
@@ -64,6 +65,7 @@ class App extends Component {
 					<h1 className="title">Calculator app</h1>
 					<ResultComponent result={this.state.result} />
 					<KeyPadComponent onClick={this.onClick} />
+					<State />
 					<footer className="footer">
 						Resources Patel, Nitin. “How to Build a Simple Calculator
 						Application with React.js.” Medium, Medium, 2 July 2018,
