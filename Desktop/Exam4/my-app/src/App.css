@@ -1,0 +1,40 @@
+.title {
+	color: royalblue;
+}
+.result {
+	height: 60px;
+	width: 100%;
+	border: 10px;
+}
+
+.result p {
+	font-size: 40px;
+	margin: 5px;
+	border: 10px;
+}
+
+.calculator-body {
+	max-width: 500px;
+	max-height: 1000px;
+	margin: auto;
+	color: sienna;
+}
+
+.button {
+	display: block;
+	background-color: grey;
+	color: sienna;
+}
+
+button {
+	width: 25%;
+	height: 60px;
+	font-size: 30px;
+	color: sienna;
+}
+.footer {
+	position: absolute;
+	bottom: 0px;
+	color: black;
+	left: 50px;
+}
